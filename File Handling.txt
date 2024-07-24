@@ -1,0 +1,12 @@
+File Handling:
+
+file handling is a concept in JAVA through which we can store date.
+
+
+in file handling there are 4 major operations:
+
+1. Creating a file.
+2. Writing into a file.
+3. Reading form a file.
+4. Deleting a file.
+

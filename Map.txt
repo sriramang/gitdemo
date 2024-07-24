@@ -1,0 +1,10 @@
+Map:
+
+1. Map is an interface in java which are used to store elements in key and value pair.
+2. For adding an element in map we use put method 
+3. we can not traves map directly, in order to traves through map we need to convert the map to set using entry set method.
+4. we can implement map using hashmap linkedhashmap and treemap.
+
+
+1. In TreeMap the keys are stored in ascending order.
+2. It can not contain any null key.

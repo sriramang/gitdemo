@@ -1,0 +1,11 @@
+Sorted Set:
+
+sorted set interface is a child interface of set
+2. it stores the element in increasing or ascending order.
+3. to implement sorted set we use TreeSet class in JAVA.
+
+
+TreeSet Class:
+
+TreeSet class in java uses binary search tree data structure to store the elements.
+It can not have null values.

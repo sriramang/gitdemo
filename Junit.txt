@@ -1,0 +1,58 @@
+Junit
+1. Tt is a java library to perform unit testing.
+2. When we divide application into small parts it is know as component or unit.
+3. Type of testing which are conducted on these units are known as unit testing. 
+4. Unit testing is performed by the developers.
+
+LEVELS OF TESTING:
+1. Unit testing.
+2. Integration testing.
+3. System testing.
+4. Acceptance testing.
+
+Testing:
+It is a process in which we asses the quality of the software as per the user requirement.
+
+Assertions in Junit:
+1. It is a method in java through which we can verify the excepted and actual outputs.
+2. There are multiple assert methods they are: 
+
+	1. assertTrue(Boolean) - It Checks for true condition.
+	2. assertFalse(Boolean) - It checks for false condition.
+	3. assertEquals(Expected, result) - It asserts whether the two objects passed as arguments are equal.
+	4. assertNull(object) - It asserts that an object is null.
+	5. assertNotNull(Object) - It asserts that an object is not null.
+	6. assertSame(expected, actual) - It assets that two object refers to the same.
+ 	7. assertNotSame(expected, actual) - It asserts that two object refers to different objects.
+
+ex:
+
+String s;
+assertNull(s); //test case passed;
+assertNotnull(s); // test case failed;
+
+
+String s = "abcd";
+String s1= s;
+assertSame(s,s1);//test case passed;
+assertNotSame(s,s1);//test case failed;
+
+
+Annotations in Junit:
+
+There are 6 annotations in junit:
+	1. @Test - methods with @Test annotation are used to test a functionality. 
+	2. @Before - methods with @Before annotation will run each and every test method.
+	3. @After - methods with @After annotation will run after each test method.
+	4. @BeforeClass - methods with @Before class annotation will run in the start of execution.
+	5. @AfterClass - methods with @AfterClass annotation will run after all the test cases have been executed.
+	6. @Ignore - methods with @Ignore are used to ignore a test case.
+
+
+**add Junit library5,
+
+
+SUITE  - Collection
+
+@RunWith
+
