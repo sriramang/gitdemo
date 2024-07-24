@@ -9,7 +9,7 @@ in file handling there are 4 major operations:
 2. Writing into a file.
 3. Reading form a file.
 4. Deleting a file.
-adfasf
+
 adfsdf
 sdf
 
